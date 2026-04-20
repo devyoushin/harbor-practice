@@ -54,6 +54,7 @@ harbor-practice/
 | `helm-chart-guide.md` | Helm 차트 레지스트리 |
 | `troubleshooting-guide.md` | 트러블슈팅 |
 | `e2e-practice.md` | 엔드투엔드 실습 |
+| `ha-architecture-guide.md` | 대규모 HA 아키텍처 및 백업 구성 |
 
 ---
 
