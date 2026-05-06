@@ -4,7 +4,7 @@ Harbor 트러블슈팅 케이스를 추가합니다.
 
 **예시**: `/add-troubleshooting docker push 인증 실패`
 
-다음 형식으로 작성하고 `troubleshooting-guide.md`에 추가하세요:
+다음 형식으로 작성하고 `docs/troubleshooting-guide.md`에 추가하세요:
 
 ```markdown
 ### <증상>

@@ -21,7 +21,7 @@ harbor-practice/
 ├── agents/                    # doc-writer, registry-designer, security-auditor, troubleshooter
 ├── templates/                 # service-doc, runbook, incident-report
 ├── rules/                     # doc-writing, harbor-conventions, security-checklist, monitoring
-└── *-guide.md                 # 주제별 가이드 문서
+└── docs/                      # 주제별 가이드 문서
 ```
 
 ---
@@ -32,7 +32,7 @@ harbor-practice/
 |--------|------|---------|
 | `/new-doc` | 새 가이드 문서 생성 | `/new-doc ldap-integration` |
 | `/new-runbook` | 새 런북 생성 | `/new-runbook Harbor 스토리지 확장` |
-| `/review-doc` | 문서 검토 | `/review-doc robot-account-guide.md` |
+| `/review-doc` | 문서 검토 | `/review-doc docs/robot-account-guide.md` |
 | `/add-troubleshooting` | 트러블슈팅 케이스 추가 | `/add-troubleshooting docker push 인증 실패` |
 | `/search-kb` | 지식베이스 검색 | `/search-kb 이미지 취약점 스캔` |
 
@@ -42,19 +42,19 @@ harbor-practice/
 
 | 문서 | 주제 |
 |------|------|
-| `install.md` | Harbor 설치 (Helm + EKS) |
-| `project-guide.md` | 프로젝트 관리 |
-| `push-pull-guide.md` | 이미지 Push/Pull |
-| `replication-guide.md` | 원격 복제 정책 |
-| `scanning-guide.md` | 취약점 스캔 (Trivy) |
-| `robot-account-guide.md` | 로봇 계정 관리 |
-| `webhook-guide.md` | Webhook 설정 |
-| `proxy-cache-guide.md` | 프록시 캐시 |
-| `retention-guide.md` | 이미지 보존 정책 |
-| `helm-chart-guide.md` | Helm 차트 레지스트리 |
-| `troubleshooting-guide.md` | 트러블슈팅 |
-| `e2e-practice.md` | 엔드투엔드 실습 |
-| `ha-architecture-guide.md` | 대규모 HA 아키텍처 및 백업 구성 |
+| `docs/install.md` | Harbor 설치 (Helm + EKS) |
+| `docs/project-guide.md` | 프로젝트 관리 |
+| `docs/push-pull-guide.md` | 이미지 Push/Pull |
+| `docs/replication-guide.md` | 원격 복제 정책 |
+| `docs/scanning-guide.md` | 취약점 스캔 (Trivy) |
+| `docs/robot-account-guide.md` | 로봇 계정 관리 |
+| `docs/webhook-guide.md` | Webhook 설정 |
+| `docs/proxy-cache-guide.md` | 프록시 캐시 |
+| `docs/retention-guide.md` | 이미지 보존 정책 |
+| `docs/helm-chart-guide.md` | Helm 차트 레지스트리 |
+| `docs/troubleshooting-guide.md` | 트러블슈팅 |
+| `docs/e2e-practice.md` | 엔드투엔드 실습 |
+| `docs/ha-architecture-guide.md` | 대규모 HA 아키텍처 및 백업 구성 |
 
 ---
 

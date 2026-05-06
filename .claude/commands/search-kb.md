@@ -5,10 +5,10 @@ harbor-practice 지식베이스에서 관련 내용을 검색합니다.
 **예시**: `/search-kb 이미지 취약점 스캔`
 
 관련 문서:
-- `project-guide.md`, `push-pull-guide.md`, `replication-guide.md`
-- `scanning-guide.md`, `robot-account-guide.md`, `webhook-guide.md`
-- `proxy-cache-guide.md`, `retention-guide.md`, `helm-chart-guide.md`
-- `troubleshooting-guide.md`, `e2e-practice.md`
+- `docs/project-guide.md`, `docs/push-pull-guide.md`, `docs/replication-guide.md`
+- `docs/scanning-guide.md`, `docs/robot-account-guide.md`, `docs/webhook-guide.md`
+- `docs/proxy-cache-guide.md`, `docs/retention-guide.md`, `docs/helm-chart-guide.md`
+- `docs/troubleshooting-guide.md`, `docs/e2e-practice.md`
 
 결과 형식:
 - **관련 문서**: 파일 경로
