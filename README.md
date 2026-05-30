@@ -59,28 +59,28 @@ kubectl get svc -n harbor
 ## 학습 경로
 
 ### 1단계: 설치
-- [Helm으로 Harbor 설치](./install.md)
+- [Helm으로 Harbor 설치](./docs/install.md)
 
 ### 2단계: 핵심 개념
-- [프로젝트 · 사용자 · RBAC](./project-guide.md)
-- [이미지 Push / Pull](./push-pull-guide.md)
-- [Robot Account (CI/CD 연동)](./robot-account-guide.md)
+- [프로젝트 · 사용자 · RBAC](./docs/project-guide.md)
+- [이미지 Push / Pull](./docs/push-pull-guide.md)
+- [Robot Account (CI/CD 연동)](./docs/robot-account-guide.md)
 
 ### 3단계: 보안 & 정책
-- [이미지 스캐닝 (Trivy)](./scanning-guide.md)
-- [Tag 보존 정책 (Retention)](./retention-guide.md)
-- [Webhook 설정](./webhook-guide.md)
+- [이미지 스캐닝 (Trivy)](./docs/scanning-guide.md)
+- [Tag 보존 정책 (Retention)](./docs/retention-guide.md)
+- [Webhook 설정](./docs/webhook-guide.md)
 
 ### 4단계: 고급 기능
-- [Proxy Cache (풀스루 캐시)](./proxy-cache-guide.md)
-- [Replication 정책](./replication-guide.md)
-- [Helm Chart Registry](./helm-chart-guide.md)
+- [Proxy Cache (풀스루 캐시)](./docs/proxy-cache-guide.md)
+- [Replication 정책](./docs/replication-guide.md)
+- [Helm Chart Registry](./docs/helm-chart-guide.md)
 
 ### 5단계: 문제 해결
-- [트러블슈팅 가이드](./troubleshooting-guide.md)
+- [트러블슈팅 가이드](./docs/troubleshooting-guide.md)
 
 ### 실습
-- [End-to-End 실습 (빌드 → 스캔 → 배포)](./e2e-practice.md)
+- [End-to-End 실습 (빌드 → 스캔 → 배포)](./docs/e2e-practice.md)
 
 ---
 
@@ -90,18 +90,15 @@ kubectl get svc -n harbor
 harbor-practice/
 ├── README.md
 ├── CLAUDE.md
-├── install.md                 # Helm 설치 가이드
-├── project-guide.md           # 프로젝트·사용자·RBAC
-├── push-pull-guide.md         # 이미지 Push / Pull
-├── robot-account-guide.md     # Robot Account (CI/CD)
-├── scanning-guide.md          # Trivy 이미지 스캐닝
-├── retention-guide.md         # Tag 보존 정책
-├── webhook-guide.md           # Webhook 설정
-├── proxy-cache-guide.md       # Proxy Cache
-├── replication-guide.md       # Replication 정책
-├── helm-chart-guide.md        # Helm Chart Registry
-├── troubleshooting-guide.md   # 트러블슈팅
-└── e2e-practice.md            # End-to-End 실습
+├── docs/
+│   ├── README.md
+│   ├── install.md
+│   ├── project-guide.md
+│   ├── scanning-guide.md
+│   ├── replication-guide.md
+│   └── troubleshooting-guide.md
+└── ops/
+    └── README.md
 ```
 
 ---

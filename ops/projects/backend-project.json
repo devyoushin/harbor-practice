@@ -1,0 +1,10 @@
+{
+  "project_name": "backend",
+  "public": false,
+  "metadata": {
+    "auto_scan": "true",
+    "enable_content_trust": "false",
+    "prevent_vul": "true",
+    "severity": "high"
+  }
+}

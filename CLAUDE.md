@@ -18,9 +18,9 @@ harbor-practice/
 ├── .claude/
 │   ├── settings.json
 │   └── commands/              # /new-doc, /new-runbook, /review-doc, /add-troubleshooting, /search-kb
-├── agents/                    # doc-writer, registry-designer, security-auditor, troubleshooter
-├── templates/                 # service-doc, runbook, incident-report
-├── rules/                     # doc-writing, harbor-conventions, security-checklist, monitoring
+├── docs/agents/                    # doc-writer, registry-designer, security-auditor, troubleshooter
+├── docs/templates/                 # service-doc, runbook, incident-report
+├── docs/rules/                     # doc-writing, harbor-conventions, security-checklist, monitoring
 └── docs/                      # 주제별 가이드 문서
 ```
 

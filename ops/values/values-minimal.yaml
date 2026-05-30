@@ -1,0 +1,29 @@
+externalURL: https://harbor.example.com
+
+adminPassword: Harbor12345!
+
+exposureType: ingress
+ingress:
+  core:
+    hostname: harbor.example.com
+    ingressClassName: nginx
+    tls: true
+
+persistence:
+  enabled: true
+  persistentVolumeClaim:
+    registry:
+      storageClass: gp3
+      size: 100Gi
+    jobservice:
+      storageClass: gp3
+      size: 10Gi
+    database:
+      storageClass: gp3
+      size: 20Gi
+    redis:
+      storageClass: gp3
+      size: 5Gi
+    trivy:
+      storageClass: gp3
+      size: 10Gi

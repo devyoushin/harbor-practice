@@ -1,0 +1,31 @@
+{
+  "name": "dr-full-replication",
+  "description": "Replicate all backend repositories to DR Harbor",
+  "dest_registry": {
+    "name": "harbor-dr",
+    "type": "harbor",
+    "url": "https://harbor-dr.example.com",
+    "credential": {
+      "type": "basic",
+      "access_key": "robot$backend+replicator",
+      "access_secret": "<robot-secret-token>"
+    },
+    "insecure": false
+  },
+  "dest_namespace": "backend",
+  "trigger": {
+    "type": "scheduled",
+    "trigger_settings": {
+      "cron": "0 0 2 * * *"
+    }
+  },
+  "filters": [
+    {
+      "type": "name",
+      "value": "backend/**"
+    }
+  ],
+  "deletion": false,
+  "override": true,
+  "enabled": true
+}

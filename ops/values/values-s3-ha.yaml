@@ -1,0 +1,60 @@
+externalURL: https://harbor.example.com
+
+core:
+  replicaCount: 3
+  affinity:
+    podAntiAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        - labelSelector:
+            matchExpressions:
+              - key: app.kubernetes.io/component
+                operator: In
+                values: ["core"]
+          topologyKey: topology.kubernetes.io/zone
+
+registry:
+  replicaCount: 3
+  affinity:
+    podAntiAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        - labelSelector:
+            matchExpressions:
+              - key: app.kubernetes.io/component
+                operator: In
+                values: ["registry"]
+          topologyKey: topology.kubernetes.io/zone
+
+jobservice:
+  replicaCount: 2
+
+persistence:
+  imageChartStorage:
+    type: s3
+    s3:
+      region: ap-northeast-2
+      bucket: harbor-registry-prod
+      regionendpoint: ""
+      encrypt: true
+      secure: true
+      v4auth: true
+      chunksize: "5242880"
+      rootdirectory: /registry
+      storageclass: STANDARD
+
+postgresql:
+  enabled: false
+externalDatabase:
+  host: harbor-aurora.cluster-xxxx.ap-northeast-2.rds.amazonaws.com
+  port: 5432
+  user: harbor
+  coreDatabase: registry
+  sslmode: require
+
+redis:
+  enabled: false
+externalRedis:
+  host: harbor-redis.xxxx.clustercfg.apn2.cache.amazonaws.com
+  port: 6379
+  coreDatabaseIndex: "0"
+  jobserviceDatabaseIndex: "1"
+  registryDatabaseIndex: "2"
