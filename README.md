@@ -4,6 +4,23 @@ EKS 환경에서 Harbor Container Registry를 처음부터 운영 수준까지 �
 
 ---
 
+## 어디서 시작할까
+
+- 문서 지도: `docs/README.md`
+- 첫 문서: `docs/install.md`
+- 운영 보조 자료: `ops/README.md`
+- AI 작업 지침: `CLAUDE.md`
+
+## 구조
+
+| 경로 | 내용 |
+|------|------|
+| `docs/` | 설치, 프로젝트, Push/Pull, 스캔, 복제, HA, 트러블슈팅 문서 |
+| `ops/` | Helm values, 프로젝트/Robot Account/Replication API payload |
+| `CLAUDE.md` | 이 레포에서 Claude가 참고할 작업 지침 |
+
+---
+
 ## 환경 정보
 
 | 항목 | 값 |
@@ -84,7 +101,7 @@ kubectl get svc -n harbor
 
 ---
 
-## 저장소 구조
+## 상세 구조
 
 ```
 harbor-practice/
