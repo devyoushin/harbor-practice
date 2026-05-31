@@ -4,6 +4,8 @@ Harbor 운영 보조 자료와 실습 자산을 두는 공간입니다.
 
 | 폴더 | 내용 |
 |------|------|
+| `install/` | Helm 기반 Harbor 설치 스크립트 |
+| `upgrade/` | Harbor Helm 업그레이드 스크립트 |
 | `values/` | Helm values 예제 |
 | `projects/` | 프로젝트 API payload 예제 |
 | `robot-accounts/` | robot account API payload 예제 |
