@@ -4,7 +4,7 @@ Harbor 운영 보조 자료와 실습 자산을 두는 공간입니다.
 
 | 폴더 | 내용 |
 |------|------|
-| `install/` | Helm 기반 Harbor 설치 스크립트 |
+| `install/` | Helm, Docker Compose, systemd 설치 예시 |
 | `upgrade/` | Harbor Helm 업그레이드 스크립트 |
 | `values/` | Helm values 예제 |
 | `projects/` | 프로젝트 API payload 예제 |
@@ -20,5 +20,8 @@ Harbor 운영 보조 자료와 실습 자산을 두는 공간입니다.
 | `projects/backend-project.json` | backend 프로젝트 생성 payload |
 | `robot-accounts/project-ci-pusher.json` | CI push용 project robot account payload |
 | `replication/dr-full-replication.json` | DR Harbor 복제 정책 payload |
+| `install/install-harbor-docker.sh` | Harbor release package 설치 및 Compose 초기화 |
+| `install/harbor.service` | Docker Compose Harbor 스택 systemd 유닛 |
 
 Harbor 원리를 설명하는 문서는 `docs/`에 두고, 실제 예시 파일과 운영 보조 자료는 `ops/`에 둡니다.
+설치 방식은 `docs/install.md`에서 Helm, Docker Compose, systemd로 나눠 설명합니다.

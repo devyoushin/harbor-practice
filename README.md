@@ -8,6 +8,7 @@ EKS 환경에서 Harbor Container Registry를 처음부터 운영 수준까지 �
 
 - 문서 지도: `docs/README.md`
 - 첫 문서: `docs/install.md`
+- 설치 방식: Helm / Docker Compose / systemd
 - 운영 보조 자료: `ops/README.md`
 - AI 작업 지침: `CLAUDE.md`
 
@@ -76,7 +77,7 @@ kubectl get svc -n harbor
 ## 학습 경로
 
 ### 1단계: 설치
-- [Helm으로 Harbor 설치](./docs/install.md)
+- [Harbor 설치 가이드](./docs/install.md)
 
 ### 2단계: 핵심 개념
 - [프로젝트 · 사용자 · RBAC](./docs/project-guide.md)

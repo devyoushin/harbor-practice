@@ -4,7 +4,7 @@ Harbor 학습 문서는 주제별 문서로 나눠 관리합니다.
 
 | 문서 | 내용 |
 |------|------|
-| `install.md` | Helm 기반 Harbor 설치 |
+| `install.md` | Helm, Docker Compose, systemd 기반 Harbor 설치 |
 | `project-guide.md` | 프로젝트와 권한 |
 | `push-pull-guide.md` | 이미지 push/pull |
 | `scanning-guide.md` | 취약점 스캔 |

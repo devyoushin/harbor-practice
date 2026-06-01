@@ -1,4 +1,4 @@
-# Harbor 설치 (Helm)
+# Harbor 설치 (Helm / Docker Compose / systemd)
 
 EKS 환경에서 `bitnami/harbor` Helm Chart로 Harbor를 설치합니다.
 
@@ -255,6 +255,62 @@ helm history harbor -n harbor
 
 > **주의**: 메이저 버전 업그레이드 시 DB 마이그레이션이 자동 실행됩니다.
 > 업그레이드 전 반드시 PostgreSQL 백업을 수행하세요.
+
+---
+
+## Docker Compose 설치
+
+Harbor는 Docker 기반 배포를 공식적으로 지원합니다. 로컬 VM이나 단일 호스트 환경에서는 Harbor 릴리스 패키지의 `install.sh`를 사용합니다.
+
+```bash
+# Harbor 릴리스 패키지 다운로드 및 압축 해제
+tar xf harbor-online-installer-<VERSION>.tgz
+cd harbor
+
+# 설정 파일 준비
+cp harbor.yml.tmpl harbor.yml
+# hostname, https, storage, database, redis 값을 환경에 맞게 수정
+
+# 설치
+./prepare
+./install.sh
+```
+
+설치 후 확인:
+
+```bash
+docker compose ps
+docker compose logs -f
+```
+
+## systemd 설치
+
+systemd는 Harbor 자체를 직접 설치하는 방식이 아니라, Docker Compose 스택을 서비스처럼 관리하는 운영 방식입니다.
+
+```ini
+# /etc/systemd/system/harbor.service
+[Unit]
+Description=Harbor registry stack
+After=docker.service network-online.target
+Requires=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/opt/harbor
+ExecStart=/usr/bin/docker compose up -d
+ExecStop=/usr/bin/docker compose down
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable --now harbor
+sudo journalctl -u harbor -f
+```
 
 ---
 
