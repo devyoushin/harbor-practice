@@ -5,6 +5,7 @@ Harbor 학습 문서는 주제별 문서로 나눠 관리합니다.
 | 문서 | 내용 |
 |------|------|
 | `install.md` | Helm, Docker Compose, systemd 기반 Harbor 설치 |
+| `install/upgrade/` | Harbor Helm 업그레이드 |
 | `project-guide.md` | 프로젝트와 권한 |
 | `push-pull-guide.md` | 이미지 push/pull |
 | `scanning-guide.md` | 취약점 스캔 |
@@ -18,3 +19,4 @@ Harbor 학습 문서는 주제별 문서로 나눠 관리합니다.
 | `agents/`, `rules/`, `templates/` | AI 작업 보조 자료 |
 
 처음 읽을 문서는 `install.md`입니다.
+업그레이드 절차는 `install/upgrade/`입니다.
