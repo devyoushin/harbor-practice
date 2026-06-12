@@ -238,7 +238,7 @@ kubectl port-forward svc/harbor 8443:443 -n harbor
 
 ## 업그레이드
 
-상세 업그레이드 절차와 `ops/upgrade/upgrade-harbor-helm.sh` 사용법은 [Harbor 업그레이드 가이드](./install/upgrade/)를 참고합니다.
+상세 업그레이드 절차와 `ops/upgrade/upgrade-harbor-helm.sh` 사용법은 [Harbor 업그레이드 가이드](upgrade/README.md)를 참고합니다.
 
 ```bash
 # 업그레이드 전 현재 values 확인
