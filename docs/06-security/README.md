@@ -10,5 +10,5 @@ Harbor 이미지 취약점 스캔과 배포 차단 정책을 정리한 폴더입
 
 ## 관련 문서
 
-- [../policies/retention-guide.md](../policies/retention-guide.md)
-- [../rules/security-checklist.md](../rules/security-checklist.md)
+- [../05-policies/retention-guide.md](../05-policies/retention-guide.md)
+- [../90-standards/security-checklist.md](../90-standards/security-checklist.md)

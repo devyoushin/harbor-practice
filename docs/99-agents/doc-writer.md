@@ -20,5 +20,5 @@ description: Harbor 가이드 문서 작성 전문가. 프로젝트 관리, 복�
 
 ## 참조
 - `CLAUDE.md` — EKS 환경, Harbor 버전, 도메인
-- `rules/harbor-conventions.md` — 표준 관행
-- `templates/service-doc.md` — 문서 템플릿
+- `90-standards/harbor-conventions.md` — 표준 관행
+- `91-templates/service-doc.md` — 문서 템플릿

@@ -10,6 +10,6 @@ Harbor를 사용해 이미지 빌드, 스캔, 배포까지 검증하는 실습 �
 
 ## 사전 학습
 
-1. [../install/install.md](../install/install.md)
-2. [../access/project-guide.md](../access/project-guide.md)
-3. [../artifacts/push-pull-guide.md](../artifacts/push-pull-guide.md)
+1. [../01-installation/install.md](../01-installation/install.md)
+2. [../04-access-control/project-guide.md](../04-access-control/project-guide.md)
+3. [../03-artifacts/push-pull-guide.md](../03-artifacts/push-pull-guide.md)

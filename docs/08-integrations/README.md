@@ -10,5 +10,5 @@ Harbor 이벤트를 외부 시스템과 연결하는 문서를 모은 폴더입�
 
 ## 관련 문서
 
-- [../security/scanning-guide.md](../security/scanning-guide.md)
-- [../tutorials/e2e-practice.md](../tutorials/e2e-practice.md)
+- [../06-security/scanning-guide.md](../06-security/scanning-guide.md)
+- [../10-tutorials/e2e-practice.md](../10-tutorials/e2e-practice.md)

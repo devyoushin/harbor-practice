@@ -11,5 +11,5 @@ Harbor에 저장하는 컨테이너 이미지와 Helm Chart artifact 사용법�
 
 ## 관련 문서
 
-- [../access/robot-account-guide.md](../access/robot-account-guide.md)
-- [../security/scanning-guide.md](../security/scanning-guide.md)
+- [../04-access-control/robot-account-guide.md](../04-access-control/robot-account-guide.md)
+- [../06-security/scanning-guide.md](../06-security/scanning-guide.md)

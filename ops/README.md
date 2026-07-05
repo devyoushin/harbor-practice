@@ -6,7 +6,7 @@ Harbor를 실제로 설치하거나 실습할 때 사용하는 Helm values, 설�
 
 | 폴더 | 내용 |
 |------|------|
-| `install/` | Helm, Docker Compose, systemd 설치 예시 |
+| `01-installation/` | Helm, Docker Compose, systemd 설치 예시 |
 | `upgrade/` | Harbor Helm 업그레이드 스크립트 |
 | `values/` | Helm values 예제 |
 | `projects/` | 프로젝트 API payload 예제 |
@@ -22,20 +22,20 @@ Harbor를 실제로 설치하거나 실습할 때 사용하는 Helm values, 설�
 | `projects/backend-project.json` | backend 프로젝트 생성 payload |
 | `robot-accounts/project-ci-pusher.json` | CI push용 project robot account payload |
 | `replication/dr-full-replication.json` | DR Harbor 복제 정책 payload |
-| `install/install-harbor-docker.sh` | Harbor release package 설치 및 Compose 초기화 |
-| `install/harbor.service` | Docker Compose Harbor 스택 systemd 유닛 |
+| `01-installation/install-harbor-docker.sh` | Harbor release package 설치 및 Compose 초기화 |
+| `01-installation/harbor.service` | Docker Compose Harbor 스택 systemd 유닛 |
 
 ## 관련 문서
 
 | 작업 | 문서 |
 |------|------|
-| Harbor 설치 | [../docs/install/install.md](../docs/install/install.md) |
-| Helm 업그레이드 | [../docs/install/upgrade/README.md](../docs/install/upgrade/README.md) |
-| 프로젝트 생성 | [../docs/access/project-guide.md](../docs/access/project-guide.md) |
-| Robot Account 생성 | [../docs/access/robot-account-guide.md](../docs/access/robot-account-guide.md) |
-| 복제 정책 | [../docs/distribution/replication-guide.md](../docs/distribution/replication-guide.md) |
-| HA values | [../docs/architecture/ha-architecture-guide.md](../docs/architecture/ha-architecture-guide.md) |
-| 트러블슈팅 | [../docs/operations/troubleshooting-guide.md](../docs/operations/troubleshooting-guide.md) |
+| Harbor 설치 | [../docs/01-installation/install.md](../docs/01-installation/install.md) |
+| Helm 업그레이드 | [../docs/01-installation/upgrade/README.md](../docs/01-installation/upgrade/README.md) |
+| 프로젝트 생성 | [../docs/04-access-control/project-guide.md](../docs/04-access-control/project-guide.md) |
+| Robot Account 생성 | [../docs/04-access-control/robot-account-guide.md](../docs/04-access-control/robot-account-guide.md) |
+| 복제 정책 | [../docs/07-distribution/replication-guide.md](../docs/07-distribution/replication-guide.md) |
+| HA values | [../docs/02-architecture/ha-architecture-guide.md](../docs/02-architecture/ha-architecture-guide.md) |
+| 트러블슈팅 | [../docs/09-operations/troubleshooting-guide.md](../docs/09-operations/troubleshooting-guide.md) |
 
 ## 관리 원칙
 

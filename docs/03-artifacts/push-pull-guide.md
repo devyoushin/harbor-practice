@@ -149,7 +149,7 @@ kubectl patch serviceaccount default \
 ## Robot Account를 사용한 CI/CD Push
 
 > CI/CD 파이프라인에서는 개인 계정 대신 Robot Account를 사용하세요.
-> 자세한 내용은 [robot-account-guide.md](../access/robot-account-guide.md)를 참고하세요.
+> 자세한 내용은 [robot-account-guide.md](../04-access-control/robot-account-guide.md)를 참고하세요.
 
 ```bash
 # Robot Account 토큰으로 로그인

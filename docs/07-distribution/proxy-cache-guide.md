@@ -194,7 +194,7 @@ sudo systemctl restart containerd
 
 ```bash
 # Proxy Cache 프로젝트에도 일반 보존 정책과 동일하게 적용
-# (../policies/retention-guide.md 참고)
+# (../05-policies/retention-guide.md 참고)
 ```
 
 ---

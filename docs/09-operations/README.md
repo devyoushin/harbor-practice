@@ -10,5 +10,5 @@ Harbor 장애 진단과 문제 해결 문서를 모은 폴더입니다.
 
 ## 관련 문서
 
-- [../architecture/ha-architecture-guide.md](../architecture/ha-architecture-guide.md)
-- [../rules/monitoring.md](../rules/monitoring.md)
+- [../02-architecture/ha-architecture-guide.md](../02-architecture/ha-architecture-guide.md)
+- [../90-standards/monitoring.md](../90-standards/monitoring.md)

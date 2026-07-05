@@ -10,5 +10,5 @@ Harbor 프로젝트와 이미지 저장소 운영 정책을 정리한 폴더입�
 
 ## 관련 문서
 
-- [../security/scanning-guide.md](../security/scanning-guide.md)
-- [../distribution/proxy-cache-guide.md](../distribution/proxy-cache-guide.md)
+- [../06-security/scanning-guide.md](../06-security/scanning-guide.md)
+- [../07-distribution/proxy-cache-guide.md](../07-distribution/proxy-cache-guide.md)

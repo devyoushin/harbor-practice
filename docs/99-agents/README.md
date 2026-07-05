@@ -14,5 +14,5 @@ Harbor 문서를 AI와 함께 작성하거나 점검할 때 쓰는 역할별 지
 ## 관련 문서
 
 - [../README.md](../README.md)
-- [../rules/README.md](../rules/README.md)
-- [../templates/README.md](../templates/README.md)
+- [../90-standards/README.md](../90-standards/README.md)
+- [../91-templates/README.md](../91-templates/README.md)

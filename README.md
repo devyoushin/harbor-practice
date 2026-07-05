@@ -7,27 +7,27 @@ EKS 환경에서 Harbor Container Registry를 설치하고 프로젝트/RBAC, �
 | 목적 | 문서 |
 |------|------|
 | 전체 문서 목차 보기 | [docs/README.md](docs/README.md) |
-| Harbor 설치하기 | [docs/install/install.md](docs/install/install.md) |
-| 프로젝트와 권한 이해하기 | [docs/access/project-guide.md](docs/access/project-guide.md) |
-| 이미지 Push/Pull 실습하기 | [docs/artifacts/push-pull-guide.md](docs/artifacts/push-pull-guide.md) |
-| Robot Account로 CI/CD 연동하기 | [docs/access/robot-account-guide.md](docs/access/robot-account-guide.md) |
-| 취약점 스캔 설정하기 | [docs/security/scanning-guide.md](docs/security/scanning-guide.md) |
-| End-to-End 실습하기 | [docs/tutorials/e2e-practice.md](docs/tutorials/e2e-practice.md) |
+| Harbor 설치하기 | [docs/01-installation/install.md](docs/01-installation/install.md) |
+| 프로젝트와 권한 이해하기 | [docs/04-access-control/project-guide.md](docs/04-access-control/project-guide.md) |
+| 이미지 Push/Pull 실습하기 | [docs/03-artifacts/push-pull-guide.md](docs/03-artifacts/push-pull-guide.md) |
+| Robot Account로 CI/CD 연동하기 | [docs/04-access-control/robot-account-guide.md](docs/04-access-control/robot-account-guide.md) |
+| 취약점 스캔 설정하기 | [docs/06-security/scanning-guide.md](docs/06-security/scanning-guide.md) |
+| End-to-End 실습하기 | [docs/10-tutorials/e2e-practice.md](docs/10-tutorials/e2e-practice.md) |
 | 운영 자산 확인하기 | [ops/README.md](ops/README.md) |
 
 ## 추천 학습 순서
 
-1. [Harbor 설치](docs/install/install.md)
-2. [프로젝트/사용자/RBAC](docs/access/project-guide.md)
-3. [이미지 Push/Pull](docs/artifacts/push-pull-guide.md)
-4. [Robot Account](docs/access/robot-account-guide.md)
-5. [이미지 스캐닝](docs/security/scanning-guide.md)
-6. [Tag 보존 정책](docs/policies/retention-guide.md)
-7. [Replication](docs/distribution/replication-guide.md), [Proxy Cache](docs/distribution/proxy-cache-guide.md)
-8. [Webhook](docs/integrations/webhook-guide.md), [Helm Chart Registry](docs/artifacts/helm-chart-guide.md)
-9. [HA 아키텍처](docs/architecture/ha-architecture-guide.md)
-10. [End-to-End 실습](docs/tutorials/e2e-practice.md)
-11. [트러블슈팅](docs/operations/troubleshooting-guide.md)
+1. [Harbor 설치](docs/01-installation/install.md)
+2. [프로젝트/사용자/RBAC](docs/04-access-control/project-guide.md)
+3. [이미지 Push/Pull](docs/03-artifacts/push-pull-guide.md)
+4. [Robot Account](docs/04-access-control/robot-account-guide.md)
+5. [이미지 스캐닝](docs/06-security/scanning-guide.md)
+6. [Tag 보존 정책](docs/05-policies/retention-guide.md)
+7. [Replication](docs/07-distribution/replication-guide.md), [Proxy Cache](docs/07-distribution/proxy-cache-guide.md)
+8. [Webhook](docs/08-integrations/webhook-guide.md), [Helm Chart Registry](docs/03-artifacts/helm-chart-guide.md)
+9. [HA 아키텍처](docs/02-architecture/ha-architecture-guide.md)
+10. [End-to-End 실습](docs/10-tutorials/e2e-practice.md)
+11. [트러블슈팅](docs/09-operations/troubleshooting-guide.md)
 
 ## 디렉터리 구조
 
